@@ -17,7 +17,7 @@ export const WelcomeScreen: React.FC<Props> = ({ stats, onNewChat, theme = 'dark
     }`}>
       <h1 className={`text-3xl font-bold mb-8 ${
         isLight ? 'text-gray-900' : 'text-white'
-      }`}>Welcome to AI Chat</h1>
+      }`}>Welcome to Deepseek R1 AI Chat</h1>
       
       <div className="grid grid-cols-3 gap-8 mb-12">
         <div className="text-center">
